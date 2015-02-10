@@ -1,0 +1,138 @@
+/* Navigation Section */
+.navigation-bar {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    margin-top: 0;
+}
+.navigation-bar> .content {
+    width: 1300px;
+    height: 70px;
+    margin: 0 auto;
+}
+.navigation-bar .logo {
+    height: 70px;
+}
+.menu {
+    float: right;
+    font-family: 'Roboto', sans-serif; 
+    color: #838994;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em 0;
+    margin-top: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.navigation-bar .menu li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.navigation-bar .menu .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+.navigation-bar .link li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.masthead-heading,
+.masthead-intro, 
+.content-footer {
+    text-align: center;
+}
+
+.masthead {
+    padding: 10em 0;
+    background-image: url('http://i57.tinypic.com/2irqmp4.jpg');
+    background-repeat: round;
+    background-size: cover;
+    border-top: solid 1em #FF7F00;
+}
+
+.masthead-intro {
+   /* Layout Declarations */
+    margin-bottom: 0.1em;
+  /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+    margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.content-footer {
+    padding: 2em 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social > li {
+    display: inline-block;
+}
+.content-footer > p {
+ color: black;
+}
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+section > h1 {
+    margin-top: 2em;
+}
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: #FF7F00;
+}
+h1 {
+  color: #000000;
+}
+h2 {
+  color: #5b555e;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 2em;
+    }
+}
